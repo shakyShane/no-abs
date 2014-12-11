@@ -2,6 +2,11 @@
 
 > Don't allow absolute paths in require calls
 
+It's just a simple regex that looks for ` require("/` in files - don't use it if you need anything
+more robust that than.
+
+It was created to stop myself pushing code that was using absolute paths on my machine - it's not
+designed to be any kind of comprehensive check/test, so use with caution.
 
 ## Install
 
