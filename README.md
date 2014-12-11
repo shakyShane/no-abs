@@ -1,4 +1,4 @@
-#  [![Build Status](https://secure.travis-ci.org/shakyShane/no-abs.svg?branch=master)](http://travis-ci.org/shakyShane/no-abs)
+#no-abs [![Build Status](https://secure.travis-ci.org/shakyShane/no-abs.svg?branch=master)](http://travis-ci.org/shakyShane/no-abs)
 
 > Don't allow absolute paths in require calls
 
@@ -14,7 +14,7 @@ $ npm install --save no-abs
 ```js
 var gulp   = require('gulp');
 var jshint = require('gulp-jshint');
-var noAbs  = require('./');
+var noAbs  = require('no-abs');
 
 gulp.task('no-abs', function() {
     return gulp.src("test/fixtures/*.js")
