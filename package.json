@@ -1,0 +1,32 @@
+{
+  "name": "no-abs",
+  "version": "0.0.0",
+  "description": "Don't allow absolute paths in require calls",
+  "author": {
+    "name": "Shane Osbourne",
+    "email": "shakyshane@gmail.com"
+  },
+  "repository": "shakyShane/no-abs",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "no-abs",
+    ""
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "vinyl": "^0.4.6",
+    "vinyl-fs": "^0.3.13"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

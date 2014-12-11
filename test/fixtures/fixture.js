@@ -1,0 +1,1 @@
+var someLocal = require("shakyshane/someLocal");
